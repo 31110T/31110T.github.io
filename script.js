@@ -12,7 +12,9 @@ if (navigator.mediaDevices.getUserMedia) {
 */
 var i = 1;
 //var n = 0; //opacity transform: scale(${(i)/10}); opacity:${n};
-var rando = Math.floor(Math.random() * 11);
+var rando = 5;
+
+//Math.floor(Math.random() * 11);
 
 var append1Function = setInterval(function(){
   //var i = Math.floor(Math.im() * 10) + 1;
@@ -37,20 +39,20 @@ var append1Function = setInterval(function(){
  document.getElementById("box3").insertAdjacentHTML("beforeend", pic3);
 
  var pic4 = `<div class="patternunit" style="
-   right:${rando * 20}px;
+   left:${rando * 20}px;
    top:${i * 50}px;
    "><img src="images/adv/d2.png"></div>`;
  document.getElementById("box4").insertAdjacentHTML("beforeend", pic4);
 
  var pic5 = `<div class="patternunit" style="
    right:${i * 10}px;
-   top:${i * 20}px;
+   top:${rando * 20}px;
    "><img src="images/surfin/s1.png"></div>`;
  document.getElementById("box5").insertAdjacentHTML("beforeend", pic5);
 
  var pic6 = `<div class="patternunit" style="
-   right:${i * 50}px;
-   top:${i * 70}px;
+   left:${rando * 20}px;
+   top:${i * 20}px;
    "><img src="images/turks/t2.jpg"></div>`;
  document.getElementById("box6").insertAdjacentHTML("beforeend", pic6);
 
@@ -59,19 +61,6 @@ var append1Function = setInterval(function(){
    top:${i * 20}px;
    "><img src="images/cos/posters22.png"></div>`;
  document.getElementById("box7").insertAdjacentHTML("beforeend", pic7);
-
- var pic8 = `<div class="patternunit" style="
-   right:${i * 20}px;
-   top:${i * 20}px;
-   "><img src="images/"></div>`;
- document.getElementById("box8").insertAdjacentHTML("beforeend", pic8);
-
- var pic9 = `<div class="patternunit" style="
-   right:${i * 50}px;
-   top:${i*10}px;
-   "><img src="images/"></div>`;
- document.getElementById("box9").insertAdjacentHTML("beforeend", pic9);
-
 
  if (i >= 1) {
    // defining the maximum amount of cycles
