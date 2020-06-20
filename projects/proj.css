@@ -69,8 +69,9 @@ img{
 #eeb{
   z-index:-10;
   position:fixed;
-  right:0px;
-  width:25%;
+  right:-160px;
+  top:-100px;
+  width:40%;
   height:120%;
-  border:0px solid black !important;
+  border:0px solid black;
 }
