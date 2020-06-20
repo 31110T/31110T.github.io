@@ -1,8 +1,9 @@
 body{
   background-color: #e5e9e9;
+  padding-top:10px;
 }
 img{
-  width:300px;
+  height:300px;
   padding:10px;
   margin:10px;
   border:1px solid black;
@@ -100,52 +101,52 @@ video{
 
 #box1{
   position:fixed;
-  top:400px;
-  left: 700px;
+  top:100px;
+  left: 600px;
 }
 
 #box2{
   position:fixed;
-  right:200px;
   top:100px;
+  left: 500px;
 }
 #box3{
   position:fixed;
-  right:300px;
   top:100px;
+  left: 500px;
 }
 #box4{
   position:fixed;
-  left:600px;
-  top:300px;
+  top:100px;
+  left: 500px;
 }
 #box5{
   position:fixed;
-  right:10px;
-  top:200px;
+  top:100px;
+  left: 500px;
 }
 #box6{
   position:fixed;
-  left:900px;
-  top:80px;
+  top:100px;
+  left: 600px;
 }
 
 #box7{
   position:fixed;
-  left:800px;
-  top:-40px;
+  top:100px;
+  left: 600px;
 }
 
 #box8{
   position:fixed;
-  right:0px;
-  top:0px;
+  top:100px;
+  left: 600px;
 }
 
 #box9{
   position:fixed;
-  right:10px;
-  top:0px;
+  top:100px;
+  left: 600px;
 }
 #box10{
   z-index: -11;
