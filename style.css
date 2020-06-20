@@ -56,12 +56,13 @@ video{
     border: 2px solid black;
     box-shadow: 5px 5px 6px black;
     width:200px;
+    margin:0px;
+    padding:10px;
 }
 
 #proj{
   padding-left: 10px;
   grid-column: 1 / 2;
-
 }
 
 #eeb{
