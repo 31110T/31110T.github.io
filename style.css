@@ -221,6 +221,7 @@ and (orientation : portrait) {
   /*  background-color: #e5e9e9;*/
   }
   #eeb{
+    z-index: -10 !important;
     position:fixed;
     left:200px;
     width:120%;

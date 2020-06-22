@@ -86,7 +86,7 @@ video:hover{
 }
 
 #eeb{
-  z-index:-10;
+  z-index: -10 !important;
   position:fixed;
   right:-160px;
   top:-100px;
@@ -136,6 +136,7 @@ and (orientation : portrait) {
   }
   #eeb{
     position:fixed;
+    z-index: -10 !important;
     left:200px;
     width:120%;
     height:120%;
