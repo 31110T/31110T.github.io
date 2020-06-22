@@ -135,6 +135,7 @@ and (orientation : portrait) {
   #side{
     position:fixed;
     width:100%;
+    z-index: 10 !important;
   }
   #side div{
     width:85%;
@@ -143,7 +144,7 @@ and (orientation : portrait) {
     grid-column: 1;
     grid-row: 2;
     position:relative;
-    z-index: -1 !important;
+    z-index: 1 !important;
     margin:0px;
   }
   .con{
