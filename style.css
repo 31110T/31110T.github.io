@@ -209,14 +209,22 @@ and (orientation : portrait) {
   #mobileheader{
     z-index: 10;
     position:fixed;
+    top:30px;
+    left:48px;
     display:block !important;
-    width:90%;
-    transform: skew(40deg);
+    width:85%;
+    height:60px;
     border-radius: 50%;
     border:2px solid black;
     text-align: center;
     background-color: #e5e9e9;
   }
+
+
+
+
+
+
   #mobileheadspace{
     grid-column: 1;
     height:60px;
