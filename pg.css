@@ -81,6 +81,14 @@ img:hover{
   margin:6px;
   margin-left: -100px;
 }
+#contact{
+  grid-column: 1 / 4;
+  margin:15px;
+}
+#contact>a{
+  margin:6px;
+  margin-left: -100px;
+}
 
 #filler{
   grid-column: 4 / 6;
@@ -169,6 +177,17 @@ and (orientation : portrait) {
           background-color: #e5e9e9;
 
     }
+  #contact{
+      position:absolute;
+      top: 370px;
+      margin-left: 20px;
+    }
+      #contact p{
+        font-size:2rem;
+      }
+      #contact a{
+        font-size:2rem;
+      }
 
   #eeb{
     position:fixed;
