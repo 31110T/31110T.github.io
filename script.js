@@ -35,7 +35,7 @@ var append1Function = setInterval(function(){
 
  var pic4 = `<div class="patternunit" style="
 
-   "><img src="images/loser/d3.png"></div>`;
+   "><img src="images/loser/d2.png"></div>`;
  document.getElementById("box4").insertAdjacentHTML("beforeend", pic4);
 
  var pic5 = `<div class="patternunit" style="
