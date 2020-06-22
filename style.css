@@ -196,9 +196,15 @@ and (orientation : portrait) {
   #mobileheader{
     display:block !important;
     grid-column: 1;
+    transform: skew(-40deg);
+    border-radius: 50%;
+    border:2px solid black;
+    text-align: center;
+    background-color: #e5e9e9;
   }
     #mobileheader p{
-      font-size: 3rem;
+      font-size: 2rem;
+      width:100%;
     }
 
   .border{
