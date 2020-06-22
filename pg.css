@@ -143,7 +143,7 @@ and (orientation : portrait) {
     grid-column: 1;
     grid-row: 2;
     position:relative;
-    z-index: -8;
+    z-index: -1 !important;
     margin:0px;
   }
   .con{
@@ -190,7 +190,7 @@ and (orientation : portrait) {
       }
 
   #eeb{
-    z-index: -10 !important;
+    z-index: -8 !important;
     position:fixed;
     left:200px;
     width:120%;
