@@ -1,3 +1,8 @@
+*{
+  letter-spacing:.1rem;
+  line-height: .97;
+}
+
 body{
   background-color: #e5e9e9;
 }
@@ -36,16 +41,19 @@ img{
   border:1px solid black;
 }
 img:hover{
-  box-shadow: 5px 5px 6px black;
+  box-shadow: 8px 5px 10px black;
 }
 
 .border{
     text-transform:uppercase;
     border: 2px solid black;
-    box-shadow: 5px 5px 6px black;
-    margin:10px;
     width:200px;
+    margin:20px;
+    padding:10px;
+     transform: skew(40deg);
+
 }
+
 #select{
   text-decoration:underline;
 }
@@ -59,9 +67,6 @@ img:hover{
   display:flex;
   left:30%;
   width:60%;
-}
-.pics{
-
 }
 
 #websites{

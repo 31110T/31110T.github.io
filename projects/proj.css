@@ -1,3 +1,8 @@
+*{
+  letter-spacing:.1rem;
+  line-height: .97;
+}
+
 body{
   background-color: #e5e9e9;
 }
@@ -15,9 +20,13 @@ a{
   text-transform:uppercase;
   color:black;
   display:block;
-  padding-left:10px;
   margin:0px;
   font-size:1.4rem;
+  line-height: 1.1;
+}
+
+.border a{
+  text-decoration: none !important;
 
 }
 video{
@@ -34,12 +43,22 @@ img{
   border:1px solid black;
 
 }
+img:hover{
+  box-shadow: 8px 5px 10px black;
+}
+video:hover{
+  box-shadow: 8px 5px 10px black;
+}
 
 .border{
     text-transform:uppercase;
     border: 2px solid black;
-    box-shadow: 10px 10px 8px black;
-}
+    width:200px;
+    margin:10px;
+    padding:10px;
+    transform: skew(40deg);
+  }
+
 
 #con{
   grid-column: 1 / 2;
