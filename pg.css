@@ -1,8 +1,8 @@
 *{
   letter-spacing:.1rem;
-  line-height: .97;
+  font-family: 'Chakra Petch', sans-serif !important;
+  line-height: 1.1;
 }
-
 body{
   background-color: #e5e9e9;
 }
