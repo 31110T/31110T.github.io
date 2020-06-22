@@ -94,3 +94,73 @@ video:hover{
   height:120%;
   border:0px solid black;
 }
+
+
+
+
+
+
+
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 812px)
+and (orientation : portrait) {
+  img{
+    width:100%;
+    height:auto;
+    border:2px solid black;
+  }
+  #wrapper{
+    grid-template-columns: 1fr;
+  }
+  #mobileview{
+    grid-row:4;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    grid-gap: 10px;
+  }
+  #mobileview a {
+    text-decoration: underline;
+    margin-left: 10px;
+    padding-top:20px;
+  }
+  #mobileview .border {
+    padding-left: 10px
+  }
+
+    #proj{
+      display:none;
+    }
+  #mobileproj{
+    width:99%;
+    margin-left: 10px;
+    margin-bottom:10px;
+  }
+
+  #mobileheader{
+    display:block !important;
+    grid-column: 1;
+  }
+    #mobileheader p{
+      font-size: 3rem;
+    }
+
+  .border{
+    width:100%;
+    font-size:2rem;
+    grid-column:1 / 3;
+    text-decoration: none !important;
+  /*  background-color: #e5e9e9;*/
+  }
+  #eeb{
+    position:fixed;
+    left:200px;
+    width:120%;
+    height:120%;
+    border:0px solid black;
+  }
+
+
+ }
