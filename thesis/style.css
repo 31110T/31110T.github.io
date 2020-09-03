@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 700px 700px;
+    grid-template-rows: auto;
+    grid-row-gap: 100px;
+    grid-column-gap: 20px;
+}
+
+#header {
+    text-transform: uppercase;
+    grid-column: 1 / 3;
+    height: 900px
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 6rem;
+    color: chartreuse;
+    /*transform: scale(1, 4);*/
+    line-height: .7;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+#header>p {
+    font-family: 'Andale mono';
+    line-height: .9;
+    color: orangered;
+    font-size: 1rem;
+}
+
+a,
+:visited {
+    color: black;
+}
+
+a:hover {
+    color: orangered;
+}
+
+#bg {
+    position: fixed;
+    right: 0px;
+    z-index: -1;
+    height: 50%;
+    margin: 0px;
+}
+
+.blob {
+    height: 700px;
+    width: 700px;
+    border-radius: 50%;
+    background-color: hsl(99, 98%, 48%);
+    color: black;
+}
+
+.title {
+    position: relative;
+    padding-top: 200px;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.info {
+    height: 700px;
+    max-width: 100%;
+}
+
+.desc {
+    position: absolute;
+    margin: auto;
+    background: url(media/slime.gif) no-repeat center center;
+    background-size: 400px 400px;
+    height: 400px;
+    width: 300px;
+}
+
+.desc:hover {
+    filter: invert(1);
+}
+
+.desc>h2 {
+    color: red;
+    font-weight: normal;
+    font-family: sans-serif, 'Andale mono';
+    line-height: .9;
+    font-size: 1rem;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.pics {
+    filter: grayscale(1) invert(1);
+    /*border: 2px solid black;*/
+    border-radius: 50%;
+    height: 700px;
+    width: 160px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}
+
+.show {
+    position: absolute;
+    border-radius: 0% !important;
+    height: auto;
+    width: 400px;
+    background-color: red;
+    z-index: 10;
+}
+
+
+/*
+.info>img:hover {
+    position: absolute;
+    left: 700px;
+    z-index: 10;
+    filter: none;
+    border: 2px solid orangered;
+    animation: 2s forwards grow;
+    animation-iteration-count: 1;
+}
+
+@keyframes grow {
+    0% {}
+    100% {
+        width: 690px;
+    }
+}*/
