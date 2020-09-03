@@ -19,20 +19,23 @@ body {
 }
 
 h1 {
+    position: fixed;
     font-weight: normal;
-    font-size: 6rem;
-    color: chartreuse;
-    /*transform: scale(1, 4);*/
+    font-size: 4rem;
+    color: hsl(99, 98%, 48%);
+    font-style: italic !important;
+    transform: scale(1, 20) skewX(-60deg);
     line-height: .7;
     margin-bottom: 60px;
-    margin-top: 20px;
+    margin-top: 360px;
+    z-index: -1;
 }
 
 #header>p {
-    font-family: 'Andale mono';
     line-height: .9;
-    color: orangered;
+    background-color: orangered;
     font-size: 1rem;
+    width: 97%;
 }
 
 a,
@@ -86,9 +89,9 @@ a:hover {
 }
 
 .desc>h2 {
-    color: red;
+    color: orangered;
     font-weight: normal;
-    font-family: sans-serif, 'Andale mono';
+    font-family: 'Franklin Gothic Medium', sans-serif;
     line-height: .9;
     font-size: 1rem;
     margin: auto;
@@ -96,11 +99,12 @@ a:hover {
 }
 
 .pics {
+    position: relative;
     filter: grayscale(1) invert(1);
     /*border: 2px solid black;*/
     border-radius: 50%;
     height: 700px;
-    width: 160px;
+    width: 140px;
     image-rendering: pixelated;
     image-rendering: -moz-crisp-edges;
     image-rendering: crisp-edges;
@@ -108,11 +112,18 @@ a:hover {
 
 .show {
     position: absolute;
-    border-radius: 0% !important;
+    left: 760px;
     height: auto;
-    width: 400px;
-    background-color: red;
-    z-index: 10;
+    width: auto;
+    max-height: 700px;
+    max-width: 650px;
+    filter: none;
+    border-radius: 0% !important;
+}
+
+.hide {
+    position: absolute;
+    display: none;
 }
 
 
