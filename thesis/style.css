@@ -21,13 +21,13 @@ body {
 h1 {
     position: fixed;
     font-weight: normal;
-    font-size: 4rem;
+    font-size: 3rem;
     color: hsl(99, 98%, 48%);
     font-style: italic !important;
-    transform: scale(1, 20) skewX(-60deg);
+    transform: scale(1, 30) skewX(-80deg);
     line-height: .7;
     margin-bottom: 60px;
-    margin-top: 360px;
+    margin-top: 460px;
     z-index: -1;
 }
 
