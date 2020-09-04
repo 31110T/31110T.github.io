@@ -24,10 +24,10 @@ h1 {
     font-size: 3rem;
     color: hsl(99, 98%, 48%);
     font-style: italic !important;
-    transform: scale(1, 30) skewX(-80deg);
+    transform: scale(1, 30) skewX(-85deg);
     line-height: .7;
-    margin-bottom: 60px;
-    margin-top: 460px;
+    margin-left: 60px;
+    margin-top: 440px;
     z-index: -1;
 }
 
