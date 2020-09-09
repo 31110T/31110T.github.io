@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>24hrs</title>
+    <link rel="stylesheet" href="clock.css">
+</head>
+
+<body>
+    <div id="clock">
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+        <div class="sec"> 2</div>
+        <div class="hour">4</div>
+        <div class="mins">H</div>
+        <div class="sec">R</div>
+        <div class="hour">S</div>
+
+    </div>
+
+
+    <script>
+        $(function() {
+            setInterval(function() {
+                var seconds = new Date().getSeconds();
+                var hours = new Date().getHours();
+                var mins = new Date().getMinutes();
+
+                var sdegree = seconds * 6;
+                var hdegree = hours * 4;
+                var mdegree = mins * 4;
+
+                /* inserting
+                $("#sec").html(seconds);
+                $("#min").html(mins);
+                $("#hrs").html(hours);
+                */
+                var srotate = "skewY(" + sdegree + "deg)";
+                var hrotate = "skewY(" + hdegree + "deg)";
+                var mrotate = "skewY(" + mdegree + "deg)";
+
+                $(".sec").css({
+                    "transform": srotate,
+                    /* "font-size": sdegree + "px"*/
+                });
+                $(".hour").css({
+                    "transform": hrotate,
+                    /* "font-size": hdegree + "px"*/
+                });
+                $(".mins").css({
+                    "transform": mrotate,
+                    /* "font-size": mdegree + "px"*/
+                });
+
+
+
+
+            }, 1000);
+        });
+    </script>
+</body>
+
+</html>
