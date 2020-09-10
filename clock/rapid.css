@@ -1,5 +1,5 @@
 body {
-    background-color: yellow;
+    background-color: HSL(64deg, 100%, 50%);
     color: black;
     animation: infinite 3s changeFont;
     font-size: 15em;
