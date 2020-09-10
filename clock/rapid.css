@@ -1,0 +1,74 @@
+body {
+    background-color: yellow;
+    color: black;
+    animation: infinite 3s changeFont;
+    font-size: 15em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 56%;
+    right: 50%;
+    transform: translate(50%, -50%) scaleY(5);
+}
+
+@keyframes changeFont {
+    0% {
+        font-family: sans-serif
+    }
+    10% {
+        font-family: 'times', serif;
+    }
+    15% {
+        font-family: 'helvetica', sans-serif;
+    }
+    20% {
+        font-family: monospace;
+    }
+    25% {
+        font-family: 'arial', sans-serif;
+    }
+    30% {
+        font-family: 'Book Antiqua', serif;
+    }
+    35% {
+        font-family: 'Lucida Sans Unicode', sans-serif;
+    }
+    40% {
+        font-family: fantasy;
+    }
+    45% {
+        font-family: 'arial black', sans-serif;
+    }
+    50% {
+        font-family: 'georgia', serif;
+    }
+    55% {
+        font-family: 'franklin gothic medium', sans-serif;
+    }
+    60% {
+        font-family: 'andale mono', monospace;
+    }
+    65% {
+        font-family: 'tahoma', sans-serif;
+    }
+    70% {
+        font-family: 'bookman', serif;
+    }
+    75% {
+        font-family: cursive;
+    }
+    80% {
+        font-family: 'gill sans', sans-serif;
+    }
+    85% {
+        font-family: 'times new roman', serif;
+    }
+    90% {
+        font-family: 'garamond', serif;
+    }
+    95% {
+        font-family: 'Trebuchet MS', sans-serif;
+    }
+    100% {
+        font-family: 'bradley hand', sans-serif;
+    }
+}
