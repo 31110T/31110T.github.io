@@ -2,12 +2,18 @@ body {
     background-color: HSL(64deg, 100%, 50%);
     color: black;
     animation: infinite 3s changeFont;
-    font-size: 15em;
+    font-size: 1em;
     text-transform: uppercase;
-    position: absolute;
+    /* position: absolute;
     top: 56%;
-    right: 50%;
-    transform: translate(50%, -50%) scaleY(5);
+    right: 50%;*/
+    transform: translate(50%, -50%) scaleY(5) skew(-40deg);
+}
+
+div {
+    display: inline-block;
+    line-height: -1;
+    margin-bottom: -200px[]
 }
 
 @keyframes changeFont {
