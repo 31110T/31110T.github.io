@@ -6,8 +6,9 @@
 
 body {
     background-color: #e5e9e9;
+    padding-top: 10px;
     background-image: url("cloud.jpg");
-    height: 100vh;
+    height: 260vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
