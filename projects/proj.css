@@ -1,13 +1,13 @@
 * {
     letter-spacing: .1rem;
-    font-family: 'Chakra Petch', sans-serif !important;
+    font-family: 'helvetica', sans-serif !important;
     line-height: 1.1;
 }
 
 body {
-    background-color: #e5e9e9;
+    background-color: rgb(229, 233, 227);
     padding-top: 10px;
-    background-image: url("../cloud.jpg");
+    /*background-image: url("../cloud.jpg");*/
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;

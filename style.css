@@ -1,13 +1,14 @@
 * {
     letter-spacing: .1rem;
-    font-family: 'Chakra Petch', sans-serif;
+    font-family: "helvetica", sans-serif;
     line-height: 1.1;
+    color: black;
 }
 
 body {
-    background-color: #e5e9e9;
+    background-color: rgb(229, 233, 227);
     padding-top: 10px;
-    background-image: url("cloud.jpg");
+    /*background-image: url("cloud.jpg");*/
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +19,7 @@ img {
     height: 300px;
     padding: 10px;
     margin: 10px;
-    border: 1px solid black;
+    border: 1.5px solid black;
 }
 
 p {
@@ -142,7 +143,7 @@ a:hover>#box10 {
     border-radius: 50%;
     border: 2px solid black;
     text-align: center;
-    color: black
+    color: black;
 }
 
 #mobileheader p {
@@ -242,9 +243,8 @@ a:hover>#box10 {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: portrait) {
     body {
-        background-color: #e5e9e9;
+        background-color: rgb(229, 233, 227);
         padding-top: 10px;
-        background-image: url("cloud.jpg");
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
