@@ -1,0 +1,188 @@
+    @font-face {
+        font-family: 'SnellRoundhand-Script';
+        src: url('font/SnellRoundhand-Script.svg#SnellRoundhand-Script') format('svg'), url('font/SnellRoundhand-Script.ttf') format('truetype'), url('font/SnellRoundhand-Script.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'SnellRoundhandScript';
+        src: url('font/SnellRoundhandScript.eot');
+        src: url('font/SnellRoundhandScript.eot?#iefix') format('embedded-opentype'), url('font/SnellRoundhandScript.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    body {
+        background-color: black;
+        color: rgb(179, 255, 0);
+        font-family: Helvetica, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    header {
+        /* font-family: 'SnellRoundhand-Script'; */
+        border-left: rgb(179, 255, 0);
+        background-color: black;
+    }
+    
+    #header {
+        /* grid-column: 1 / 6; */
+        position: fixed;
+        height: 20px;
+        width: 100vw;
+        border: .5px solid rgb(179, 255, 0);
+        border-left: .5px solid rgb(179, 255, 0);
+        padding: 10px;
+        background-color: black;
+    }
+    
+    h1 {
+        position: relative;
+        top: 40%;
+        text-align: center;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    
+    h1,
+    a,
+    .proj {
+        text-transform: uppercase;
+        color: rgb(179, 255, 0);
+        font-size: 1.1em;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        /* color: black;
+    background-color: rgb(179, 255, 0); */
+        font-family: 'SnellRoundhand-Script';
+        /* font-size: 1.4em;
+    font-weight: 600; */
+    }
+    
+    em {
+        font-family: 'SnellRoundhand-Script';
+        font-size: 1.1em;
+        padding: 2px;
+    }
+    
+    #wrapper {
+        /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 40px calc(100vh - 40px); */
+    }
+    
+    .unit {
+        width: 1/6vw;
+        height: 99%;
+        border: .5px solid rgb(179, 255, 0);
+    }
+    
+    .unit:hover {
+        font-family: 'SnellRoundhand-Script';
+        /* background-color: rgb(173, 247, 0); */
+    }
+    /* #carousel {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 500px;
+    z-index: -1;
+}
+
+#carousel>img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+} */
+    
+    img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    
+    #image {
+        position: absolute;
+    }
+    
+    #projects {
+        position: fixed;
+        top: 41px;
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 99%;
+        border: .5px solid rgb(179, 255, 0);
+    }
+    
+    .proj {
+        border: .5px solid rgb(179, 255, 0);
+        height: 40px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding: 10px;
+    }
+    
+    #work {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 60px;
+        left: 350px;
+        width: 73%;
+    }
+    
+    #logo {
+        top: 60px;
+        left: 390px;
+        width: 73%;
+        height: 200vh;
+        background-color: green;
+    }
+    
+    .projtitle {
+        text-transform: uppercase;
+    }
+    
+    .projsec {
+        top: 60px;
+        left: 390px;
+        width: 100%;
+        height: 200vh;
+        padding-top: 60px;
+        background-color: red;
+    }
+    
+    .projimages {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+    
+    .projimages>img {
+        height: auto;
+        width: 400px;
+    }
+    
+    video {
+        height: auto;
+        width: 500px;
+    }
+    /* img {
+        min*-width: 100%;
+        min*-height: 100%;
+        display: block;
+        object-fit: cover
+    } */
