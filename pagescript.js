@@ -16,19 +16,54 @@
 //     setTimeout(carousel, 400); // Change image every 2 seconds
 
 // }
-window.onload = function() {
-    // your code 
 
-    document.querySelector("#thesislink").onclick = function() { myFunction() };
 
-    function myFunction() {
-        console.log("hello")
-            // document.getElementById("thesis");
-        document.getElementById("thesis").classList.toggle("projsec");
 
-    }
+//doesnt have to be a toggle?
+$(document).ready(function() {
+    $("#logo").css('display', 'block')
+    $("#thesispg").css('display', 'none')
+    $("#mirrorworldpg").css('display', 'none')
+    $("#collabpg").css('display', 'none')
+    $("#surfinpg").css('display', 'none')
 
-    document.getElementById('mirrorlink').onclick = function() {
-        document.getElementById('thesis')[0].classList.toggle("projsec");
-    }
-};
+
+
+
+
+    $("#thesis").click(function() {
+        $("#thesispg").toggle();
+        $("#logo").css('display', 'none')
+        $("#thesispg").css('display', 'block')
+        $("#mirrorpg").css('display', 'none')
+        $("#collabpg").css('display', 'none')
+        $("#surfinpg").css('display', 'none')
+    });
+
+    $("#mirror").click(function() {
+        $("#mirrorpg").toggle();
+        $("#logo").css('display', 'none')
+        $("#thesispg").css('display', 'none')
+        $("#mirrorpg").css('display', 'block')
+        $("#collabpg").css('display', 'none')
+        $("#surfinpg").css('display', 'none')
+    });
+
+    $("#collab").click(function() {
+        $("#collabpg").toggle();
+        $("#logo").css('display', 'none')
+        $("#thesispg").css('display', 'none')
+        $("#mirrorpg").css('display', 'none')
+        $("#collabpg").css('display', 'block')
+        $("#surfinpg").css('display', 'none')
+    });
+
+    $("#surfin").click(function() {
+        $("#surfinpg").toggle();
+        $("#logo").css('display', 'none')
+        $("#thesispg").css('display', 'none')
+        $("#mirrorpg").css('display', 'none')
+        $("#collabpg").css('display', 'none')
+        $("#surfinpg").css('display', 'block')
+    });
+});
