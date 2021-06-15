@@ -3,12 +3,22 @@
 document.querySelector(".projects").addEventListener("click", resize);
 document.querySelector(".projects").addEventListener("click", visibility);
 
+
 function resize() {
+    $("#arrow").toggle()
+    $(".work").toggle()
+        // $("#logo").toggle()
+
     var proj = document.querySelector(".projects");
     var info = document.querySelector(".info");
+    var imgs = document.querySelector(".work");
+    // var logo = document.querySelector("#logo");
+
     // var work = document.querySelector(".work");
     proj.classList.toggle("changewidth");
     info.classList.toggle('infovis');
+    imgs.classList.toggle('infovis');
+
     // work.classList.toggle('infovis');
 
     // projname.classList.toggle("projvis")
@@ -30,7 +40,7 @@ function visibility() {
     );
 };
 
-
+// $("#logo").toggle()
 $(document).ready(function() {
 
     $("#logo").css('display', 'block')
