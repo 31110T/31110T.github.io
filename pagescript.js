@@ -6,10 +6,10 @@ document.querySelector(".projects").addEventListener("click", visibility);
 function resize() {
     var proj = document.querySelector(".projects");
     var info = document.querySelector(".info");
-    var work = document.querySelector(".work");
+    // var work = document.querySelector(".work");
     proj.classList.toggle("changewidth");
     info.classList.toggle('infovis');
-    work.classList.toggle('infovis');
+    // work.classList.toggle('infovis');
 
     // projname.classList.toggle("projvis")
 }
