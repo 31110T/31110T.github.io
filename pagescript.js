@@ -1,5 +1,38 @@
 //doesnt have to be a toggle?
+
+document.querySelector(".projects").addEventListener("click", resize);
+document.querySelector(".projects").addEventListener("click", visibility);
+
+function resize() {
+    var proj = document.querySelector(".projects");
+    var info = document.querySelector(".info");
+    var work = document.querySelector(".work");
+    proj.classList.toggle("changewidth");
+    info.classList.toggle('infovis');
+    work.classList.toggle('infovis');
+
+    // projname.classList.toggle("projvis")
+}
+
+// function visibility() {
+//     console.log("hello")
+//     document.querySelectorAll('.proj').forEach(function(element) {
+//         element.style.display = 'none';
+//     });
+// };
+
+function visibility() {
+    //deleting titles
+    $('.proj').each(
+        function() {
+            $(this).toggleClass('projvis');
+        }
+    );
+};
+
+
 $(document).ready(function() {
+
     $("#logo").css('display', 'block')
     $("#thesispg").css('display', 'none')
     $("#mirrorpg").css('display', 'none')
