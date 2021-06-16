@@ -52,49 +52,19 @@ $(document).ready(function() {
     $("#mirrordesc").css('display', 'none')
     $("#collabdesc").css('display', 'none')
     $("#surfindesc").css('display', 'none')
-        // $(".info").hide()
 
-    // $(".projects").click(function() {
-    //     // $("#wrapper").css({
-    //     //     'grid-template-columns': '50px 400px 1fr'
-    //     // })
-    //     $("#link").css({
-    //         'opacity': '1',
-    //         // 'grid-column': '1'
-    //     })
-    //     $(".projects").css({
-    //         'opacity': '0',
-    //         // 'grid-column': '2'
-    //     })
-    // });
-
-    // //reverses
-    // $("#link").click(function() {
-
-    //     $("#link").css({
-    //         'opacity': '0',
-    //         // 'grid-column': '2'
-    //     })
-    //     $(".projects").css({
-    //         'opacity': '1',
-    //         // 'grid-column': '1'
-    //     })
-    // });
-
-
-    // $('#link').hide();
-    // $('#link, .projects').click(function() {
-    //     $('#link, .projects').toggle();
-    //     // $("#wrapper").css({
-    //     //     'grid-template-columns': '50px 50px 400px 1fr'
-    //     // })
-    // });
-    // $(".projects").click(function() {
-    //     $("#wrapper").css({
-    //         'grid-template-columns': '0px 50px 400px 1fr'
-    //     })
-
-    // });
+    // other 
+    $("#logo").css('display', 'block')
+    $("#turkspg").css('display', 'none')
+    $("#cosmicpg").css('display', 'none')
+    $("#carolpg").css('display', 'none')
+    $("#alexpg").css('display', 'none')
+    $("#loosepg").css('display', 'none')
+    $("#turksdesc").css('display', 'none')
+    $("#cosmicdesc").css('display', 'none')
+    $("#caroldesc").css('display', 'none')
+    $("#alexdesc").css('display', 'none')
+    $("#loosedesc").css('display', 'none')
 
 
 
@@ -109,30 +79,6 @@ $(document).ready(function() {
         $("#collabdesc").css('display', 'none')
         $("#surfinpg").css('display', 'none')
         $("#surfindesc").css('display', 'none')
-
-        // $("#wrapper").css({
-        //     'grid-template-columns': '50px 400px 1fr',
-
-        // })
-
-        // $(".projects").css({
-
-        //     'width': '50px',
-        //     'justify-content': 'center',
-        //     'transition': 'width .8s, justify-content .8s'
-        // })
-
-        // $(".proj").css('display', "none", )
-        // $(".info").css({ 'display': "block", 'transition': 'display .8s,' })
-
-
-        // $(".projects").text("arrow");
-
-        // $("#.projects").toggleClass("info")
-        // $('.projects').removeAttr('class');
-
-
-
     });
 
     $("#mirror").click(function() {
@@ -173,4 +119,94 @@ $(document).ready(function() {
         $("#surfinpg").css('display', 'block')
         $("#surfindesc").css('display', 'block')
     });
+
+
+    // OTHER ONES
+
+
+    $("#turks").click(function() {
+        $("#turkspg").toggle();
+        $("#turkspg").css('display', 'block')
+        $("#turksdesc").css('display', 'block')
+
+        $("#logo").css('display', 'none')
+        $("#cosmicpg").css('display', 'none')
+        $("#cosmicdesc").css('display', 'none')
+        $("#carolpg").css('display', 'none')
+        $("#caroldesc").css('display', 'none')
+        $("#alexpg").css('display', 'none')
+        $("#alexdesc").css('display', 'none')
+        $("#loosepg").css('display', 'none')
+        $("#loosedesc").css('display', 'none')
+
+    });
+
+    $("#cosmic").click(function() {
+        $("#cosmicpg").toggle();
+        $("#cosmicpg").css('display', 'block')
+        $("#cosmicdesc").css('display', 'block')
+
+        $("#logo").css('display', 'none')
+        $("#turkspg").css('display', 'none')
+        $("#turksdesc").css('display', 'none')
+        $("#carolpg").css('display', 'none')
+        $("#caroldesc").css('display', 'none')
+        $("#alexpg").css('display', 'none')
+        $("#alexdesc").css('display', 'none')
+        $("#loosepg").css('display', 'none')
+        $("#loosedesc").css('display', 'none')
+
+    });
+
+    $("#carol").click(function() {
+        $("#carolpg").toggle();
+        $("#carolpg").css('display', 'block')
+        $("#caroldesc").css('display', 'block')
+
+        $("#logo").css('display', 'none')
+        $("#turkspg").css('display', 'none')
+        $("#turksdesc").css('display', 'none')
+        $("#cosmicpg").css('display', 'none')
+        $("#cosmicdesc").css('display', 'none')
+        $("#alexpg").css('display', 'none')
+        $("#alexdesc").css('display', 'none')
+        $("#loosepg").css('display', 'none')
+        $("#loosedesc").css('display', 'none')
+
+    });
+
+    $("#alex").click(function() {
+        $("#alexpg").toggle();
+        $("#alexpg").css('display', 'block')
+        $("#alexdesc").css('display', 'block')
+
+        $("#logo").css('display', 'none')
+        $("#turkspg").css('display', 'none')
+        $("#turksdesc").css('display', 'none')
+        $("#cosmicpg").css('display', 'none')
+        $("#cosmicdesc").css('display', 'none')
+        $("#carolpg").css('display', 'none')
+        $("#caroldesc").css('display', 'none')
+        $("#loosepg").css('display', 'none')
+        $("#loosedesc").css('display', 'none')
+
+    });
+
+    $("#loose").click(function() {
+        $("#loosepg").toggle();
+        $("#loosepg").css('display', 'block')
+        $("#loosedesc").css('display', 'block')
+
+        $("#logo").css('display', 'none')
+        $("#turkspg").css('display', 'none')
+        $("#turksdesc").css('display', 'none')
+        $("#cosmicpg").css('display', 'none')
+        $("#cosmicdesc").css('display', 'none')
+        $("#carolpg").css('display', 'none')
+        $("#caroldesc").css('display', 'none')
+        $("#alexpg").css('display', 'none')
+        $("#alexdesc").css('display', 'none')
+
+    });
+
 });
