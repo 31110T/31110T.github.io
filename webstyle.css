@@ -24,6 +24,18 @@ body {
 header {
     /* font-family: 'SnellRoundhand-Script'; */
     border-left: rgb(179, 255, 0);
+    background-color: black;
+}
+
+#header {
+    background-color: black;
+    position: fixed;
+    height: 20px;
+    width: 98vw;
+    border: .5px solid rgb(179, 255, 0);
+    border-left: .5px solid rgb(179, 255, 0);
+    z-index: 100;
+    padding: 10px;
 }
 
 h1 {
@@ -37,21 +49,21 @@ h1 {
 }
 
 h1,
-a {
+a,
+.proj {
     text-transform: uppercase;
     color: rgb(179, 255, 0);
     font-size: 1.1em;
     text-decoration: none;
 }
 
-
-/* a:hover {
-    color: black;
-    background-color: rgb(179, 255, 0);
+a:hover {
+    /* color: black;
+    background-color: rgb(179, 255, 0); */
     font-family: 'SnellRoundhand-Script';
-    font-size: 1.4em;
-    font-weight: 600;
-} */
+    /* font-size: 1.4em;
+    font-weight: 600; */
+}
 
 em {
     font-family: 'SnellRoundhand-Script';
@@ -59,27 +71,29 @@ em {
     padding: 2px;
 }
 
-#header {
-    grid-column: 1 / 6;
-    width: 99%;
-    border: .5px solid rgb(179, 255, 0);
-    border-left: .5px solid rgb(179, 255, 0);
-    padding: 10px;
-}
-
 #wrapper {
+    /* display: grid; */
+}
+
+#webgrid {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    /* divided by something */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 40px calc(100vh - 40px);
+    grid-template-columns: calc(100vw/3.5) calc(100vw/3.5) calc(100vw/3.5);
+    grid-template-rows: calc(100vw/5);
+    /* grid-gap: 20px; */
 }
 
-.unit {
-    width: 1/6vw;
-    height: 99%;
+.site {
     border: .5px solid rgb(179, 255, 0);
+    ;
+    /* height: 200px;
+    width: 200px; */
 }
 
-.unit:hover {
-    font-family: 'SnellRoundhand-Script';
-    /* background-color: rgb(173, 247, 0); */
+.siteimg>img {
+    width: 100px;
+    height: auto;
 }
