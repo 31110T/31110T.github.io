@@ -98,3 +98,30 @@ em {
     text-align: center;
     transform: rotate(30deg);
 }
+
+.circle>p {
+    font-weight: bolder;
+}
+
+#contact {
+    position: relative;
+    top: 10px;
+    left: 30px;
+    width: 300px;
+    /* width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 98); */
+    color: rgb(255, 0, 98);
+    padding: 30px;
+}
+
+#mail {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    border: 2px dotted black;
+    padding: 10px;
+    height: 100px;
+    border-radius: 50%;
+}
