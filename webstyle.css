@@ -72,18 +72,22 @@ em {
 }
 
 #wrapper {
-    /* display: grid; */
+    /*put border around  
+    display: grid; */
+    /* height: 100vh;
+    width: 99vw;
+    border: 1px solid rgb(179, 255, 0); */
 }
 
 #webgrid {
     position: absolute;
     top: 60px;
-    left: 60px;
+    left: 10%;
     /* divided by something */
     display: grid;
-    grid-template-columns: calc(100vw/3.5) calc(100vw/3.5) calc(100vw/3.5);
-    grid-template-rows: calc(100vw/5);
-    /* grid-gap: 20px; */
+    grid-template-columns: calc(100vw/2.5) calc(100vw/2.5);
+    grid-template-rows: calc(100vw/4.5);
+    grid-gap: 20px;
 }
 
 .site {
@@ -94,6 +98,6 @@ em {
 }
 
 .siteimg>img {
-    width: 200px;
+    width: calc(100vw/2.8);
     height: auto;
 }

@@ -83,3 +83,18 @@ em {
     font-family: 'SnellRoundhand-Script';
     /* background-color: rgb(173, 247, 0); */
 }
+
+.circle {
+    position: absolute;
+    z-index: 10;
+    bottom: 100px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 98);
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    transform: rotate(30deg);
+}
