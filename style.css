@@ -103,7 +103,8 @@ em {
     font-weight: bolder;
 }
 
-#contact {
+
+/* #contact {
     position: relative;
     top: 10px;
     left: 30px;
@@ -111,10 +112,10 @@ em {
     /* width: 300px;
     height: 300px;
     border-radius: 50%;
-    background-color: rgb(255, 0, 98); */
+    background-color: rgb(255, 0, 98);
     color: rgb(255, 0, 98);
     padding: 30px;
-}
+} */
 
 #mail {
     text-transform: uppercase;
