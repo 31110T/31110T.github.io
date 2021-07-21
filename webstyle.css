@@ -80,24 +80,40 @@ em {
 }
 
 #webgrid {
+    width: 100vw;
     position: absolute;
-    top: 60px;
+    top: 80px;
     left: 10%;
     /* divided by something */
     display: grid;
     grid-template-columns: calc(100vw/2.5) calc(100vw/2.5);
-    grid-template-rows: calc(100vw/4.5);
+    /* grid-template-rows: calc(100vw/4); */
     grid-gap: 20px;
 }
 
 .site {
-    border: .5px solid rgb(179, 255, 0);
-    ;
     /* height: 200px;
     width: 200px; */
+    text-align: center;
 }
 
 .siteimg>img {
-    width: calc(100vw/2.8);
+    border: .5px solid rgb(179, 255, 0);
+    ;
+    /* width: calc(100vw/2.8);
+     */
+    width: 420px;
     height: auto;
+    padding: 20px;
+    /* margin-bottom: 20px; */
 }
+
+
+/* 
+.siteimg>img:after {
+    width: 4000px;
+}
+
+.siteimg>img:focus {
+    width: 4000px;
+} */
