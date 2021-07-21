@@ -97,7 +97,8 @@ em {
     text-align: center;
 }
 
-.siteimg>img {
+.siteimg>img,
+video {
     border: .5px solid rgb(179, 255, 0);
     ;
     /* width: calc(100vw/2.8);
