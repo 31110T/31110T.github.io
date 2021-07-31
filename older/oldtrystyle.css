@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 3rem;
+    color: white;
+}
+
+img {
+    display: none;
+    max-width: 300px;
+}
+
+a,
+a:visited {
+    color: white;
+    position: relative;
+    top: 30%;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+    grid-gap: 20px;
+}
+
+.group {
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 50%;
+}
+
+#mobileview {
+    display: none;
+}
