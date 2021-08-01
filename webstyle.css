@@ -173,3 +173,61 @@ video {
 .siteimg>img:focus {
     width: 4000px;
 } */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: portrait) {
+    .site {
+        font-size: 2.4rem;
+    }
+    #wrapper {
+        display: block;
+        /* grid-template-columns: 1fr;
+        grid-template-rows: 40px 1/6vw 1/6vw; */
+        position: fixed;
+    }
+    h1,
+    #header {
+        /* text-align: center; */
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 2.4em;
+        text-decoration: none;
+    }
+    #header {
+        height: 60px;
+        width: 110vw;
+        padding: 30px;
+        font-size: 2.6em;
+        /* font-family: 'SnellRoundhand-Script'; */
+        border-top: 1px solid rgb(179, 255, 0);
+    }
+    #webgrid {
+        width: 100vw;
+        position: absolute;
+        top: 200px;
+        left: 12%;
+        /* divided by something */
+        display: grid;
+        grid-template-rows: auto;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: calc(100vw/4); */
+        grid-gap: 30px;
+    }
+    .site {
+        /* height: 200px;
+        width: 200px; */
+        text-align: left;
+    }
+    .siteimg>img,
+    video {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid rgb(179, 255, 0);
+        ;
+        /* width: calc(100vw/2.8);
+     */
+        width: 80vw;
+        height: auto;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
