@@ -1,4 +1,4 @@
-//doesnt have to be a toggle?
+//doesnt have to be a toggle? idk
 
 document.querySelector(".projects").addEventListener("click", resize);
 document.querySelector(".projects").addEventListener("click", visibility);
