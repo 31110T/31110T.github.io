@@ -48,6 +48,11 @@ h1 {
     text-decoration: none;
 }
 
+p {
+    text-align: left;
+    padding-left: 50px;
+}
+
 h1,
 a,
 .proj {
@@ -97,8 +102,7 @@ em {
     text-align: center;
 }
 
-.siteimg>img,
-video {
+.siteimg>img {
     border: .5px solid rgb(179, 255, 0);
     ;
     /* width: calc(100vw/2.8);
@@ -117,6 +121,10 @@ video {
     box-shadow: 0px 0px 13px rgb(179, 255, 0);
 }
 
+video {
+    width: 420px !important;
+}
+
 
 /* 
 .siteimg>img:after {
@@ -131,11 +139,20 @@ video {
 /* boook */
 
 #bookgrid {
-    width: 80vw;
+    /* width: 80vw;
     position: absolute;
     top: 80px;
     left: 10%;
-    display: flex;
+    display: flex; */
+    width: 70vw;
+    position: absolute;
+    top: 80px;
+    left: 10%;
+    /* divided by something */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: calc(100vw/4); */
+    grid-gap: 30px;
 }
 
 .book {
@@ -175,9 +192,6 @@ video {
 } */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: portrait) {
-    .site {
-        font-size: 2.4rem;
-    }
     #wrapper {
         display: block;
         /* grid-template-columns: 1fr;
@@ -198,6 +212,7 @@ video {
         padding: 30px;
         font-size: 2.6em;
         /* font-family: 'SnellRoundhand-Script'; */
+        background-color: black;
         border-top: 1px solid rgb(179, 255, 0);
     }
     #webgrid {
@@ -216,6 +231,7 @@ video {
         /* height: 200px;
         width: 200px; */
         text-align: left;
+        font-size: 2.4rem;
     }
     .siteimg>img,
     video {
