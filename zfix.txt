@@ -2,23 +2,32 @@ what to fix:
 
 ALL:
 -media query
--check responsiveness
--larger image on click
+-check responsiveness on browser
+-larger image on click!
 -eventually remove old files for a smaller size folder
+-read through all text to make it less dumb
+-change title styling? underline links?
+-make highlighting glow larger?
 
 HOMEPAGE:
 -sizing width issues
 
 PROJ:
 -thesis hub link
+-fix titling, create text heirarchy
 
 WEB:
 -add thesis hub link
+-text width compared to image size, it overflows
+-change sizing to percentages?
+-mobile: header z index not working
 
 EDIT:
 
 COMMERCIAL:
 -add carol interaction video thing
+-fix titling, create text heirarchy
+-change sizing to percentages?
 
 CONTACT:
 -do the whole thing
