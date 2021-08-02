@@ -76,13 +76,16 @@ em {
     padding: 2px;
 }
 
-#wrapper {
+
+/* #wrapper {
     /*put border around  
     display: grid; */
-    /* height: 100vh;
+
+
+/* height: 100vh;
     width: 99vw;
-    border: 1px solid rgb(179, 255, 0); */
-}
+    border: 1px solid rgb(179, 255, 0); 
+} */
 
 #webgrid {
     width: 100vw;
