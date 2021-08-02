@@ -1,5 +1,5 @@
 what to fix:
-
+-do i add my physical computation? in the sydney section
 ALL:
 -media query
 -check responsiveness on browser
@@ -9,8 +9,12 @@ ALL:
 -change title styling? underline links?
 -make highlighting glow larger?
 
+MOBILE:
+-all borders need to be larger
+
 HOMEPAGE:
 -sizing width issues
+-mobile: height of columns is fucked, need to convert to percents somehow
 
 PROJ:
 -thesis hub link
