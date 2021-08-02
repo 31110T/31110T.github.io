@@ -20,7 +20,7 @@ WEB:
 -add thesis hub link
 -text width compared to image size, it overflows
 -change sizing to percentages?
--mobile: header z index not working
+-mobile sizing done!
 
 EDIT:
 
@@ -28,6 +28,7 @@ COMMERCIAL:
 -add carol interaction video thing
 -fix titling, create text heirarchy
 -change sizing to percentages?
+-mobile: done!
 
 CONTACT:
 -do the whole thing

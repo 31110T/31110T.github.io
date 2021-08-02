@@ -126,7 +126,7 @@ em {
 }
 
 video {
-    width: 420px !important;
+    width: 480px !important;
 }
 
 
@@ -232,8 +232,7 @@ video {
         text-align: left;
         font-size: 2.4rem;
     }
-    .siteimg>img,
-    video {
+    .siteimg>img {
         display: flex;
         flex-direction: column;
         border: 1px solid rgb(179, 255, 0);
@@ -244,6 +243,9 @@ video {
         height: auto;
         padding: 20px;
         margin-bottom: 20px;
+    }
+    video {
+        width: 80vw !important;
     }
     /* book stuff now */
     #bookgrid {
