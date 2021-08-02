@@ -1,0 +1,25 @@
+what to fix:
+
+ALL:
+-media query
+-check responsiveness
+-larger image on click
+-eventually remove old files for a smaller size folder
+
+HOMEPAGE:
+-sizing width issues
+
+PROJ:
+-thesis hub link
+
+WEB:
+-add thesis hub link
+
+EDIT:
+
+COMMERCIAL:
+-add carol interaction video thing
+
+CONTACT:
+-do the whole thing
+
