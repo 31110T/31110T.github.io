@@ -1,4 +1,11 @@
 @font-face {
+    font-family: 'Vivaldi';
+    src: url('font/vivaldi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'SnellRoundhand-Script';
     src: url('font/SnellRoundhand-Script.svg#SnellRoundhand-Script') format('svg'), url('font/SnellRoundhand-Script.ttf') format('truetype'), url('font/SnellRoundhand-Script.woff') format('woff');
     font-weight: normal;
@@ -42,7 +49,7 @@ h1 {
     position: relative;
     top: 40%;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 1.1em;
     text-decoration: none;
@@ -60,15 +67,15 @@ a,
 a:hover {
     /* color: black;
     background-color: rgb(179, 255, 0); */
-    font-family: 'SnellRoundhand-Script';
+    font-family: 'vivaldi', 'SnellRoundhand-Script';
     /* font-size: 1.4em;
     font-weight: 600; */
 }
 
 em {
-    font-family: 'SnellRoundhand-Script';
+    font-family: 'vivaldi', 'SnellRoundhand-Script';
     font-size: 1.1em;
-    padding: 2px;
+    /* padding: 2px; */
 }
 
 
@@ -245,3 +252,21 @@ video {
 
 /* 
 hello */
+
+
+/* @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: portrait) {
+    body {
+        font-size: 2.4em;
+    }
+    #wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 90px 1fr 1fr 1fr 1fr 1fr;
+    }
+    .projects {
+        position: relative;
+        grid-row: 2 / 3;
+        width: 99.5vw;
+    }
+
+} */
