@@ -258,15 +258,42 @@ hello */
     body {
         font-size: 2.4em;
     }
-    #wrapper {
+    /* #wrapper {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 90px 1fr 1fr 1fr 1fr 1fr;
+    } 
+    #header {
+        width: 99vw;
     }
     .projects {
-        position: relative;
-        grid-row: 2 / 3;
-        width: 99.5vw;
+        width: 99vw;
     }
+    .work {
+        /* opacity: 0; */
 
+
+/* display: flex;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        display: none;
+        position: relative;
+        width: 68%;
+    }
+    .projimages {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .info {
+        display: none;
+        position: relative;
+        display: block;
+        border-right: 1px solid rgb(179, 255, 0);
+        overflow: auto;
+    }
+    .infovis {
+        display: block;
+        width: 99vw;
+        padding: 15px;
+    }
 } */
