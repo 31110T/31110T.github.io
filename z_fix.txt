@@ -39,3 +39,42 @@ COMMERCIAL:
 CONTACT:
 -do the whole thing
 
+
+
+<style>
+@media screen and (max-width: 5000px) {
+    /* Display burger icon at all widths and align right
+  */
+    .header .header-burger {
+        display: flex;
+        order: 2 !important;
+    }
+    /* Make burger menu visible at all widths */
+    .header--menu-open .header-menu {
+        opacity: 1;
+        visibility: visible;
+    }
+    /* Center logo in mobile device */
+    .header-title {
+        text-align: left !important;
+    }
+    /* Hide primary navigation menu */
+    .header .header-title-nav-wrapper .header-nav {
+        display: none;
+    }
+    .header-actions {
+        display: none;
+    }
+    .page-section.vertical-alignment--middle:not(.content-collection):not(.gallery-section):not(.user-items-list-section).section-height--medium>.content-wrapper {
+        padding: 0px;
+    }
+    video-block sqs-block-video {
+        padding: 0px;
+        margin: 0px;
+    }
+    .page-section.section-height--medium:not(.content-collection):not(.gallery-section):not(.user-items-list-section) {
+        min-height: 30vh;
+        padding: 0px;
+    }
+}
+</style>
