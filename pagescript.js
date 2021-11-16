@@ -53,6 +53,7 @@ $(document).ready(function() {
     $("#collabdesc").css('display', 'none')
     $("#surfindesc").css('display', 'none')
 
+
     // other 
     $("#logo").css('display', 'block')
     $("#turkspg").css('display', 'none')
@@ -60,11 +61,15 @@ $(document).ready(function() {
     $("#carolpg").css('display', 'none')
     $("#alexpg").css('display', 'none')
     $("#loosepg").css('display', 'none')
+
     $("#turksdesc").css('display', 'none')
     $("#cosmicdesc").css('display', 'none')
     $("#caroldesc").css('display', 'none')
     $("#alexdesc").css('display', 'none')
     $("#loosedesc").css('display', 'none')
+
+    $("#melpg").css('display', 'none')
+    $("#meldesc").css('display', 'none')
 
 
 
@@ -139,6 +144,9 @@ $(document).ready(function() {
         $("#loosepg").css('display', 'none')
         $("#loosedesc").css('display', 'none')
 
+        $("#melpg").css('display', 'none')
+        $("#meldesc").css('display', 'none')
+
     });
 
     $("#cosmic").click(function() {
@@ -156,12 +164,35 @@ $(document).ready(function() {
         $("#loosepg").css('display', 'none')
         $("#loosedesc").css('display', 'none')
 
+        $("#melpg").css('display', 'none')
+        $("#meldesc").css('display', 'none')
+
     });
 
     $("#carol").click(function() {
         $("#carolpg").toggle();
         $("#carolpg").css('display', 'block')
         $("#caroldesc").css('display', 'block')
+
+        $("#logo").css('display', 'none')
+        $("#turkspg").css('display', 'none')
+        $("#turksdesc").css('display', 'none')
+        $("#cosmicpg").css('display', 'none')
+        $("#cosmicdesc").css('display', 'none')
+        $("#alexpg").css('display', 'none')
+        $("#alexdesc").css('display', 'none')
+        $("#loosepg").css('display', 'none')
+        $("#loosedesc").css('display', 'none')
+
+        $("#melpg").css('display', 'none')
+        $("#meldesc").css('display', 'none')
+
+    });
+
+    $("#mel").click(function() {
+        $("#melpg").toggle();
+        $("#melpg").css('display', 'block')
+        $("#meldesc").css('display', 'block')
 
         $("#logo").css('display', 'none')
         $("#turkspg").css('display', 'none')
@@ -190,6 +221,9 @@ $(document).ready(function() {
         $("#loosepg").css('display', 'none')
         $("#loosedesc").css('display', 'none')
 
+        $("#melpg").css('display', 'none')
+        $("#meldesc").css('display', 'none')
+
     });
 
     $("#loose").click(function() {
@@ -206,6 +240,9 @@ $(document).ready(function() {
         $("#caroldesc").css('display', 'none')
         $("#alexpg").css('display', 'none')
         $("#alexdesc").css('display', 'none')
+
+        $("#melpg").css('display', 'none')
+        $("#meldesc").css('display', 'none')
 
     });
 
