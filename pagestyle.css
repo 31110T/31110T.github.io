@@ -77,9 +77,10 @@
         font-size: 1.1em;
         /* padding: 2px; */
     }
+    /* changed this */
     
     #mobilewrapper {
-        display: block;
+        display: none;
     }
     /* .unit {
         width: 1/6vw;
