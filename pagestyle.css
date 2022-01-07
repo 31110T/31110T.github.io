@@ -173,4 +173,8 @@ hello */
     border-bottom: .2px solid rgb(179, 255, 0);
 }
 
+#alex {
+    border-bottom: .2px solid rgb(179, 255, 0);
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: portrait) {}
