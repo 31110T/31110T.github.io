@@ -106,3 +106,49 @@ a:visited {
     bottom: 20px;
     transform: rotateX(30deg)
 }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: portrait) {
+    body {
+        background-color: black;
+        color: rgb(255, 0, 98);
+        font-family: Helvetica, sans-serif;
+        padding: 0px;
+        margin: 0px;
+        /* text-transform: uppercase; */
+        /* border-left: .2px solid rgb(179, 255, 0);
+        border-right: .2px solid rgb(179, 255, 0); */
+        border: none;
+        width: 99.9vw;
+        font-weight: lighter;
+        font-size: 1.2em;
+    }
+    header {
+        background-color: transparent;
+    }
+    #header {
+        height: 80px;
+        width: 100vw;
+        border: .2px solid rgb(179, 255, 0);
+        border-left: .2px solid rgb(179, 255, 0);
+        z-index: 100;
+        padding: 15px;
+        background-color: transparent;
+        font-size: 1.2em !important;
+    }
+    #contact {
+        position: absolute;
+        font-size: 2em;
+        padding: 50px;
+        top: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 80px;
+        width: 80vw;
+    }
+    #about {
+        font-size: 1.3em;
+    }
+    a {
+        font-size: 2em;
+    }
+}
