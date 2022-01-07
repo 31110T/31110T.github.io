@@ -59,6 +59,7 @@ h1 {
     font-size: 1.2em;
     text-decoration: none;
     transform: scaleY(2);
+    margin: 20px;
 }
 
 h1,
@@ -111,6 +112,11 @@ grid-template-rows: 40px calc(100vh - 40px); */
 details {
     display: inline;
     padding: 15px;
+}
+
+.details>h1 {
+    padding: 20px;
+    margin: 20px;
 }
 
 .proj {

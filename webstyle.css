@@ -26,6 +26,8 @@ body {
     font-family: Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
+    font-weight: lighter;
+    font-size: 1.2em;
 }
 
 header {
@@ -72,13 +74,13 @@ a,
 a:hover {
     /* color: black;
     background-color: rgb(179, 255, 0); */
-    font-family: 'vivaldi', 'SnellRoundhand-Script';
+    font-family: 'SnellRoundhand-Script', 'vivaldi';
     /* font-size: 1.4em;
     font-weight: 600; */
 }
 
 em {
-    font-family: 'vivaldi', 'SnellRoundhand-Script';
+    font-family: 'SnellRoundhand-Script', 'vivaldi';
     font-size: 1.1em;
     padding: 2px;
 }
