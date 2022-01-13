@@ -22,7 +22,7 @@
 
 body {
     background-color: black;
-    color: rgb(179, 255, 0);
+    color: rgb(220, 232, 231);
     font-family: Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
@@ -32,7 +32,7 @@ body {
 
 header {
     /* font-family: 'SnellRoundhand-Script'; */
-    border-left: rgb(179, 255, 0);
+    border-left: rgb(220, 232, 231);
     background-color: black;
 }
 
@@ -41,8 +41,8 @@ header {
     position: fixed;
     height: 20px;
     width: 98vw;
-    border: .5px solid rgb(179, 255, 0);
-    border-left: .5px solid rgb(179, 255, 0);
+    border: .5px solid rgb(220, 232, 231);
+    border-left: .5px solid rgb(220, 232, 231);
     z-index: 100;
     padding: 10px;
 }
@@ -66,14 +66,14 @@ h1,
 a,
 .proj {
     text-transform: uppercase;
-    color: rgb(179, 255, 0);
+    color: rgb(220, 232, 231);
     font-size: 1.1em;
     text-decoration: none;
 }
 
 a:hover {
     /* color: black;
-    background-color: rgb(179, 255, 0); */
+    background-color: rgb(220, 232, 231); */
     font-family: 'SnellRoundhand-Script', 'vivaldi';
     /* font-size: 1.4em;
     font-weight: 600; */
@@ -93,7 +93,7 @@ em {
 
 /* height: 100vh;
     width: 99vw;
-    border: 1px solid rgb(179, 255, 0); 
+    border: 1px solid rgb(220, 232, 231); 
 } */
 
 #webgrid {
@@ -116,7 +116,7 @@ em {
 }
 
 .siteimg>img {
-    border: .5px solid rgb(179, 255, 0);
+    border: .5px solid rgb(220, 232, 231);
     ;
     /* width: calc(100vw/2.8);
      */
@@ -127,11 +127,11 @@ em {
 }
 
 .siteimg>video:hover {
-    box-shadow: 0px 0px 13px rgb(179, 255, 0);
+    box-shadow: 0px 0px 13px rgb(220, 232, 231);
 }
 
 .siteimg>img:hover {
-    box-shadow: 0px 0px 13px rgb(179, 255, 0);
+    box-shadow: 0px 0px 13px rgb(220, 232, 231);
 }
 
 video {
@@ -171,7 +171,7 @@ video {
 
 .bookimg>img,
 video {
-    border: .5px solid rgb(179, 255, 0);
+    border: .5px solid rgb(220, 232, 231);
     ;
     /* width: calc(100vw/2.8);
      */
@@ -182,11 +182,11 @@ video {
 }
 
 .bookimg>video:hover {
-    box-shadow: 0px 0px 13px rgb(179, 255, 0);
+    box-shadow: 0px 0px 13px rgb(220, 232, 231);
 }
 
 .bookimg>img:hover {
-    box-shadow: 0px 0px 13px rgb(179, 255, 0);
+    box-shadow: 0px 0px 13px rgb(220, 232, 231);
 }
 
 
@@ -221,7 +221,7 @@ video {
         font-size: 2.6em;
         /* font-family: 'SnellRoundhand-Script'; */
         background-color: black;
-        border-top: 1px solid rgb(179, 255, 0);
+        border-top: 1px solid rgb(220, 232, 231);
     }
     #webgrid {
         width: 100vw;
@@ -244,7 +244,7 @@ video {
     .siteimg>img {
         display: flex;
         flex-direction: column;
-        border: 2px solid rgb(179, 255, 0);
+        border: 2px solid rgb(220, 232, 231);
         /* width: calc(100vw/2.8);
      */
         width: 80vw;
