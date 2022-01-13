@@ -51,9 +51,8 @@ em {
 header {
     /* font-family: 'SnellRoundhand-Script'; */
     border-left: rgb(220, 232, 231);
-    background-color: black;
+    /* background-color: black; */
     color: rgb(220, 232, 231);
-    background-color: black;
 }
 
 #header {
