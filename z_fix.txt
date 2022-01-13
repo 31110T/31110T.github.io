@@ -33,3 +33,39 @@ COMMERCIAL:
 CONTACT:
 
 
+
+
+culled WEB<div class="site">
+            <a href="https://elliot.technology/ganworld/GAN/index.html">✧general adversarial cartographies✧</a>
+            <p>Exhibition of gifs from a GAN trained on various maps and diagrams, combining human and machine instructions. </p>
+            <div class="siteimg"><img src="web/gan.jpg"></div>
+            <div class="siteimg"><img src="web/gan2.jpg"></div>
+        </div>
+
+        <div class="site">
+            <A href="https://elliotbohlen.github.io/one/three/final/index.html">✧NEED ADVICE BUT MEANER✧</A>
+            <p>Uses the Open Source Advice API ran through markov chains to create random, nonsensical computer generated advice</p>
+            <div class="siteimg"><img src="web/loser.jpg"></div>
+            <!-- <div class="siteimg"><img src="web/loser1.jpg"></div> -->
+            <div class="siteimg"><img src="web/loser2.jpg"></div>
+        </div>
+
+        <!-- <div class="site">
+            <a href="https://collect-me.glitch.me/">TCHOTCHKE</a>
+            <div class="siteimg"><img src="web/tch.jpg"></div>
+        </div> -->
+
+        <!-- 
+        <div class="site">flowsesh
+            <div class="siteimg"><img src="web/flow.jpg"></div>
+        </div> -->
+
+        <!-- 
+        <div class="site">looseleaf
+            <div class="siteimg"><img src="web/looseleaf.jpg"></div>
+        </div> -->
+
+        <!-- 
+        <div class="site">alex
+            <div class="siteimg"><img src="web/alex.jpg"></div>
+        </div> -->
