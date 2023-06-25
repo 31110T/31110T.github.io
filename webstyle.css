@@ -22,17 +22,20 @@
 
 body {
     background-color: black;
-    color: rgb(179, 255, 0);
+    color: #dbe9ea;
+    height: 470vh;
+    width: (100vw - 10px);
     font-family: Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
     font-weight: lighter;
     font-size: 1.2em;
+    border: .5px solid #dbe9ea !important;
 }
 
 header {
     /* font-family: 'SnellRoundhand-Script'; */
-    border-left: rgb(179, 255, 0);
+    border-left: #dbe9ea;
     background-color: black;
 }
 
@@ -40,11 +43,14 @@ header {
     background-color: black;
     position: fixed;
     height: 20px;
-    width: 98vw;
-    border: .5px solid rgb(179, 255, 0);
-    border-left: .5px solid rgb(179, 255, 0);
+    width: 98.6vw;
+    border: .5px solid #dbe9ea;
     z-index: 100;
     padding: 10px;
+}
+
+#wrapper {
+    background-color: red;
 }
 
 h1 {
@@ -66,14 +72,14 @@ h1,
 a,
 .proj {
     text-transform: uppercase;
-    color: rgb(179, 255, 0);
+    color: #dbe9ea;
     font-size: 1.1em;
     text-decoration: none;
 }
 
 a:hover {
     /* color: black;
-    background-color: rgb(179, 255, 0); */
+    background-color: #dbe9ea; */
     font-family: 'SnellRoundhand-Script', 'vivaldi';
     /* font-size: 1.4em;
     font-weight: 600; */
@@ -93,7 +99,7 @@ em {
 
 /* height: 100vh;
     width: 99vw;
-    border: 1px solid rgb(179, 255, 0); 
+    border: 1px solid #dbe9ea; 
 } */
 
 #webgrid {
@@ -116,7 +122,7 @@ em {
 }
 
 .siteimg>img {
-    border: .5px solid rgb(179, 255, 0);
+    border: .5px solid #dbe9ea;
     ;
     /* width: calc(100vw/2.8);
      */
@@ -127,11 +133,11 @@ em {
 }
 
 .siteimg>video:hover {
-    box-shadow: 0px 0px 13px rgb(179, 255, 0);
+    box-shadow: 0px 0px 13px #dbe9ea;
 }
 
 .siteimg>img:hover {
-    box-shadow: 0px 0px 13px rgb(179, 255, 0);
+    box-shadow: 0px 0px 13px #dbe9ea;
 }
 
 video {
@@ -171,7 +177,7 @@ video {
 
 .bookimg>img,
 video {
-    border: .5px solid rgb(179, 255, 0);
+    border: .5px solid #dbe9ea;
     ;
     /* width: calc(100vw/2.8);
      */
@@ -182,11 +188,11 @@ video {
 }
 
 .bookimg>video:hover {
-    box-shadow: 0px 0px 13px rgb(179, 255, 0);
+    box-shadow: 0px 0px 13px #dbe9ea;
 }
 
 .bookimg>img:hover {
-    box-shadow: 0px 0px 13px rgb(179, 255, 0);
+    box-shadow: 0px 0px 13px #dbe9ea;
 }
 
 
@@ -200,12 +206,12 @@ video {
 } */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: portrait) {
-    #wrapper {
+    /* #wrapper {
         display: block;
         /* grid-template-columns: 1fr;
-        grid-template-rows: 40px 1/6vw 1/6vw; */
+        grid-template-rows: 40px 1/6vw 1/6vw; 
         position: fixed;
-    }
+    } */
     h1,
     #header {
         /* text-align: center; */
@@ -221,7 +227,7 @@ video {
         font-size: 2.6em;
         /* font-family: 'SnellRoundhand-Script'; */
         background-color: black;
-        border-top: 1px solid rgb(179, 255, 0);
+        border-top: 1px solid #dbe9ea;
     }
     #webgrid {
         width: 100vw;
@@ -244,7 +250,7 @@ video {
     .siteimg>img {
         display: flex;
         flex-direction: column;
-        border: 2px solid rgb(179, 255, 0);
+        border: 2px solid #dbe9ea;
         /* width: calc(100vw/2.8);
      */
         width: 80vw;

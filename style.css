@@ -22,12 +22,14 @@
 
 body {
     background-color: black;
-    color: rgb(179, 255, 0);
+    color: #dbe9ea;
+    height: 100vh;
     font-family: Helvetica, sans-serif;
     font-weight: lighter;
     padding: 0px;
     margin: 0px;
     font-size: 1.2em;
+    border: .5px solid #dbe9ea;
 }
 
 header {
@@ -47,7 +49,7 @@ h1 {
 h1,
 a {
     text-transform: uppercase;
-    color: rgb(179, 255, 0);
+    color: #dbe9ea;
     font-size: 1.1em;
     text-decoration: none;
     font-weight: lighter;
@@ -60,7 +62,7 @@ a:hover {
 
 /* a:hover {
     color: black;
-    background-color: rgb(179, 255, 0);
+    background-color: #dbe9ea;
     font-family: 'SnellRoundhand-Script';
     font-size: 1.4em;
     font-weight: 600;
@@ -75,9 +77,9 @@ em {
 #header {
     grid-column: 1 / 6;
     width: 99%;
-    border: .5px solid rgb(179, 255, 0);
-    border-left: 1px solid rgb(179, 255, 0);
-    border-top: 1px solid rgb(179, 255, 0);
+    border: .5px solid #dbe9ea;
+    border-left: 1px solid #dbe9ea;
+    border-top: 1px solid #dbe9ea;
     padding: 10px;
 }
 
@@ -90,8 +92,8 @@ em {
 .unit {
     width: 1/6vw;
     height: 99%;
-    border-left: .2px solid rgb(179, 255, 0);
-    border-bottom: .2px solid rgb(179, 255, 0);
+    border-left: .2px solid #dbe9ea;
+    border-bottom: .2px solid #dbe9ea;
 }
 
 .unit:hover {
@@ -157,7 +159,7 @@ em {
         display: block;
         height: calc(100vh/5.45) !important;
         width: 99.5vw;
-        border: .5px solid rgb(179, 255, 0);
+        border: .5px solid #dbe9ea;
     }
     h1,
     #header {
@@ -173,7 +175,7 @@ em {
         padding: 30px;
         font-size: 2.6em;
         /* font-family: 'SnellRoundhand-Script'; */
-        border-top: 1px solid rgb(179, 255, 0);
+        border-top: 1px solid #dbe9ea;
     }
     em {
         font-size: 1.1em;

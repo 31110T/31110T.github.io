@@ -22,22 +22,20 @@
 
 body {
     background-color: black;
-    color: rgb(255, 0, 98);
+    color: #dbe9ea;
+    height: 100vh;
     font-family: Helvetica, sans-serif;
     padding: 0px;
     margin: 0px;
-    /* text-transform: uppercase; */
-    border: .2px solid rgb(179, 255, 0);
-    height: 99vh;
-    width: 99.5vw;
     font-weight: lighter;
     font-size: 1.2em;
+    border-left: .2px solid #dbe9ea;
+    border-right: .2px solid #dbe9ea
 }
 
 a,
 a:visited {
     text-transform: uppercase;
-    font-size: 1.1em;
     text-decoration: none;
 }
 
@@ -49,9 +47,9 @@ em {
 
 header {
     /* font-family: 'SnellRoundhand-Script'; */
-    border-left: rgb(179, 255, 0);
+    border-left: #dbe9ea;
     background-color: black;
-    color: rgb(179, 255, 0);
+    color: #dbe9ea;
     background-color: black;
 }
 
@@ -60,15 +58,14 @@ header {
     position: fixed;
     height: 20px;
     width: 98.5vw;
-    border: .2px solid rgb(179, 255, 0);
-    border-left: .2px solid rgb(179, 255, 0);
+    border: .2px solid #dbe9ea;
+    border-left: .2px solid #dbe9ea;
     z-index: 100;
     padding: 10px;
 }
 
 #contact {
     position: relative;
-    font-size: 1.2em;
     padding: 50px;
     top: -10px;
     display: grid;
@@ -77,7 +74,6 @@ header {
 }
 
 #about {
-    font-size: 1.4rem;
     width: 110%;
 }
 
@@ -110,13 +106,13 @@ a:visited {
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (orientation: portrait) {
     body {
         background-color: black;
-        color: rgb(255, 0, 98);
+        color: #dbe9ea;
         font-family: Helvetica, sans-serif;
         padding: 0px;
         margin: 0px;
         /* text-transform: uppercase; */
-        /* border-left: .2px solid rgb(179, 255, 0);
-        border-right: .2px solid rgb(179, 255, 0); */
+        /* border-left: .2px solid #dbe9ea;
+        border-right: .2px solid #dbe9ea; */
         border: none;
         width: 99.9vw;
         font-weight: lighter;
@@ -128,8 +124,8 @@ a:visited {
     #header {
         height: 80px;
         width: 100vw;
-        border: .2px solid rgb(179, 255, 0);
-        border-left: .2px solid rgb(179, 255, 0);
+        border: .2px solid #dbe9ea;
+        border-left: .2px solid #dbe9ea;
         z-index: 100;
         padding: 15px;
         background-color: transparent;
