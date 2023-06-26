@@ -97,11 +97,6 @@ em {
     border-bottom: .2px solid #dbe9ea;
 }
 
-.unit:hover {
-    /* font-family: 'Vivaldi'; */
-    /* background-color: rgb(173, 247, 0); */
-}
-
 .circle {
     position: absolute;
     z-index: 10;
