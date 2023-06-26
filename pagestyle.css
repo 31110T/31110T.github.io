@@ -251,6 +251,12 @@ hello */
          flex-direction: column;
          height: 500vh;
      }
+     details summary {
+         list-style-type: '◯   '!important;
+     }
+     details[open] summary {
+         list-style-type: '◉   '!important;
+     }
      details {
          display: inline;
          padding: 15px;
@@ -258,12 +264,6 @@ hello */
      .details>h1 {
          padding: 40px;
          margin: 20px !important;
-     }
-     details summary {
-         list-style-type: '◯   ';
-     }
-     details[open] summary {
-         list-style-type: '◉   ';
      }
      .proj {
          padding: 50px;
