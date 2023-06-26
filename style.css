@@ -158,7 +158,8 @@ em {
     .unit {
         position: relative;
         display: block;
-        height: calc(100vh/6.3) !important;
+        /* height: calc(100vh/6.3) !important; */
+        height: calc(100vh/6) !important;
         width: 99.5vw;
         border: 1.7px solid #dbe9ea;
     }
@@ -184,6 +185,9 @@ em {
     em {
         font-size: 1.1em;
         padding: 0px !important;
+    }
+    #contact {
+        border-bottom: none;
     }
 }
 
