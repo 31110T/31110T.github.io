@@ -51,7 +51,6 @@ header {
     background-color: black;
     color: #dbe9ea;
     background-color: black;
-    font-size: 1.1em;
 }
 
 #header {
@@ -120,17 +119,22 @@ a:visited {
         font-size: 1.2em;
     }
     header {
-        background-color: transparent;
+        padding: 15px;
     }
     #header {
-        height: 80px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        font-weight: lighter;
+        height: 110px;
         width: 100vw;
-        border: .2px solid #dbe9ea;
-        border-left: .2px solid #dbe9ea;
+        color: #dbe9ea;
+        position: fixed;
+        border-bottom: 2px solid #dbe9ea;
         z-index: 100;
-        padding: 15px;
-        background-color: transparent;
-        font-size: 1.2em !important;
+        font-size: 1.4em;
+        text-align: center;
     }
     #contact {
         position: absolute;
@@ -141,9 +145,6 @@ a:visited {
         grid-template-columns: 1fr;
         grid-gap: 80px;
         width: 80vw;
-    }
-    #about {
-        font-size: 1.3em;
     }
     a {
         font-size: 2em;
