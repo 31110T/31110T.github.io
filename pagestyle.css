@@ -259,6 +259,12 @@ hello */
          padding: 40px;
          margin: 20px !important;
      }
+     details summary {
+         list-style-type: '◯   ';
+     }
+     details[open] summary {
+         list-style-type: '◉   ';
+     }
      .proj {
          padding: 50px;
          border-bottom: 2.5px solid #dbe9ea;
