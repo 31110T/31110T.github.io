@@ -165,12 +165,19 @@ video {
     grid-gap: 30px;
     z-index: -1;
 }
+#vid{
+ grid-column: 1/4 !important
+}
 
 .book {
     /* height: 200px;
     width: 200px; */
     text-align: center;
 }
+
+/*#vid{
+ grid-column: 1/4 !important
+}*/
 
 .bookimg>img,
 video {
@@ -271,15 +278,22 @@ video {
         border: 2px solid #dbe9ea;
     }
     /* book stuff now */
+
+#vid{
+ grid-column: 1/2 !important
+}
+
     #bookgrid {
-        width: 70vw;
+        width: 90%;
         position: absolute;
-        top: 150px;
-        left: 10%;
+        top: 200px;
+        left: 7%;
+        /* divided by something */
         display: grid;
+        grid-template-rows: auto;
         grid-template-columns: 1fr;
+        /* grid-template-rows: calc(100vw/4); */
         grid-gap: 30px;
-        height: 100vh;
     }
     .bookimg>img,
     video {
