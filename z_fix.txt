@@ -1,4 +1,26 @@
-PORJ N COMMERCIAL{
+P
+
+
+
+
+
+
+
+
+
+
+ <div class="site">
+            <a href="https://elliots-room.web.app/">✧ELLIOT'S ROOM✧</a>
+            <P>I used a server to create a virtual communal space, interactions with my room are viewed and created by all visitors. </P>
+            <div class="siteimg">
+                <img src="web/elliotroom.jpg">
+                <img src="web/elliotroom2.jpg">
+            </div>
+        </div>
+
+
+
+ORJ N COMMERCIAL{
     change images to flexbox so u have to fix sizing
 }
 

@@ -31,7 +31,7 @@ body {
     margin: 0px;
     font-weight: lighter;
     font-size: 1.2em;
-    border: .5px solid #dbe9ea !important;
+    /*border: .5px solid #dbe9ea !important;*/
     z-index: -100 !important;
 }
 
